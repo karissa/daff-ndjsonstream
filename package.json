@@ -4,7 +4,7 @@
   "description": "Ndjsonstream parser for daff",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "standard && tape test.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,16 @@
   "bugs": {
     "url": "https://github.com/karissa/daff-ndjsonstream/issues"
   },
-  "homepage": "https://github.com/karissa/daff-ndjsonstream"
+  "homepage": "https://github.com/karissa/daff-ndjsonstream",
+  "dependencies": {
+    "byte-stream": "^2.1.0",
+    "daff": "^1.2.12",
+    "memdb": "^0.2.0",
+    "tape": "^4.0.0",
+    "through2": "^0.6.5"
+  },
+  "devDependencies": {
+    "from2": "^1.3.0",
+    "standard": "^3.7.0"
+  }
 }
