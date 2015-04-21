@@ -1,21 +1,21 @@
 {
-  "name": "daff-ndjsonstream",
+  "name": "daff-stream",
   "version": "1.0.0",
-  "description": "Ndjsonstream parser for daff",
+  "description": "stream batcher for daff",
   "main": "index.js",
   "scripts": {
     "test": "standard && tape test.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/karissa/daff-ndjsonstream.git"
+    "url": "https://github.com/karissa/node-daff-stream.git"
   },
   "author": "Karissa McKelvey <karissa@karissamck.com> (http://karissamck.com/)",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/karissa/daff-ndjsonstream/issues"
+    "url": "https://github.com/karissa/node-daff-stream/issues"
   },
-  "homepage": "https://github.com/karissa/daff-ndjsonstream",
+  "homepage": "https://github.com/karissa/node-daff-stream",
   "dependencies": {
     "byte-stream": "^2.1.0",
     "daff": "^1.2.12",

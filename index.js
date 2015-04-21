@@ -10,7 +10,7 @@ function NdjsonStream (stream1, stream2, opts, cb) {
   // returns cb(table1, table2, visual, next)
 
   if (!opts) opts = {}
-  if (!opts.limit) opts.limit = 50
+  if (!opts.limit) opts.limit = 20
   if (!cb) throw new Error('no callback')
 
   stream1 = createBatchedStream(stream1, opts.limit)
