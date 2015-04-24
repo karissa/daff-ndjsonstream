@@ -31,7 +31,7 @@ test('knead from sorted-diff-stream', function (t) {
   }
 
   var diffStream = diff(older, newer, jsonEquals)
-  diffStream.pipe(batcher(3*2)).pipe(daffStream()).pipe(
+  diffStream.pipe(batcher(3 * 2)).pipe(daffStream()).pipe(
     through.obj(function (data, enc, next) {
       var table1 = data.tables[0]
       var table2 = data.tables[1]

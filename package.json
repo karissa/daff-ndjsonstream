@@ -1,7 +1,7 @@
 {
   "name": "daff-stream",
   "version": "1.0.0",
-  "description": "stream batcher for daff",
+  "description": "create daff streams",
   "main": "index.js",
   "scripts": {
     "test": "standard && tape test.js"
