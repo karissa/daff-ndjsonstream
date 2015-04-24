@@ -3,7 +3,7 @@
 
 Turns a [sorted-diff-stream](maxogden/sorted-diff-stream) into a stream of [daff](paulfitz/daff) terminal visuals.
 
-You'll want to first `batch` the diff streams so that they'll make sense in terminal output.
+You'll want to first `batch` the diff stream so that it wont be too big for terminal output.
 
 ```js
 var diff = require('sorted-diff-stream')
