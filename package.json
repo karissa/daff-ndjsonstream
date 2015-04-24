@@ -1,6 +1,6 @@
 {
   "name": "daff-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "create daff streams",
   "main": "index.js",
   "scripts": {
