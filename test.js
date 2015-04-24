@@ -3,7 +3,7 @@ var diff = require('sorted-diff-stream')
 var from = require('from2')
 var through = require('through2')
 var batcher = require('byte-stream')
-var DATA = require('test-data')
+var DATA = require('conflict-spectrum')
 
 var daffStream = require('./')
 

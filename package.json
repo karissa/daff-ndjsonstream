@@ -25,7 +25,7 @@
     "memdb": "^0.2.0",
     "sorted-diff-stream": "^1.0.1",
     "tape": "^4.0.0",
-    "test-data": "^1.0.2",
+    "conflict-spectrum": "^1.0.2",
     "through2": "^0.6.5"
   },
   "devDependencies": {
