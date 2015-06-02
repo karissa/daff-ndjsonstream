@@ -1,14 +1,14 @@
 var Transform = require('stream').Transform
 var inherits = require('inherits')
 var debug = require('debug')('daff-stream')
-var diff2daff = require('./diff2daff.js')
+var diff2daff = require('diff2daff')
 
 module.exports = DaffStream
 
 inherits(DaffStream, Transform)
 function DaffStream (rowPath) {
   /*
-  transforms to:
+  transforms from a diffStream to:
     {
       tables: daff tables,
       visual: the terminal visual for that daff
