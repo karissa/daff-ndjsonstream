@@ -7,7 +7,7 @@ var DATA = require('conflict-spectrum')
 
 var daffStream = require('./')
 
-var TABLES = DATA.CONFLICTS.SMALL
+var TABLES = DATA[0].json
 
 test('knead from sorted-diff-stream', function (t) {
   function keyData (data) {
